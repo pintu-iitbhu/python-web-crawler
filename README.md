@@ -17,18 +17,31 @@ This project is about building a spiderbot (web scraper) that continuously runs 
 4. pymongo
 
 ### Installation :
-
+You need to install the following modules.
+* requests
 ```
 pip3 install requests
+```
+* beautifulsoup4
+```
 pip3 install beautifulsoup4
+```
+* mongodb
+```
 sudo apt install -y mongodb
+```
+* To check the status of mongodb type the follwing command.
+```
 sudo systemctl status mongodb
+```
+* You can manage the MongoDB service using the systemctl command (e.g. sudo systemctl stop mongod , sudo systemctl start mongod ).
+```
 sudo systemctl start mongodb
+```
+* pymongo
+```
 python3 -m pip install pymongo
 ```
-To start mongodb type the following command :
-```
-mongo
-```
+
 Follow the link to learn more:
 [MongoDB Tutorial for Beginners](https://beginnersbook.com/2017/09/mongodb-tutorial/)
